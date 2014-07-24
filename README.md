@@ -12,4 +12,5 @@ var people = [
    {name:'wax', age:23},
    {name:'hellboy', age:300}
 ];
+
 var answer = myFindWhere(people, {name: 'wax'});
