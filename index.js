@@ -23,10 +23,10 @@ module.exports = function( myArr,  myObj){
 	// backwards iteration for loop	
 	var len = myArr.length;
 	for (var i = len-1; i >=0 ; i--) {
-    	if( myArr[i][prop] == testVal ) {
+		if( myArr[i][prop] == testVal ) {
 			finalAnswer = myArr[i];
 			break;
-    	}
+		}
 	}
 	return finalAnswer;
 }
