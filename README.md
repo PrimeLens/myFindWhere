@@ -1,9 +1,9 @@
 myFindWhere
 ===========
 
-node, require this multiple times if need be 
+node 
 
-lightweight, checks only one property
+lightweight, checks only one property, require this multiple times if need be
 
 var myFindWhere = require('./myFindWhere');
 
